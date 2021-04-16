@@ -26,6 +26,7 @@ The codes are tested on:
 ## Train and Evaluation
 ### Data Preparation
 Download alignment **ModelNet** [here](https://shapenet.cs.stanford.edu/media/modelnet40_normal_resampled.zip) and save in `data/modelnet40_normal_resampled/`.
+
 Train with model in `./models`. eg. smnet_9layer
 
 ```
