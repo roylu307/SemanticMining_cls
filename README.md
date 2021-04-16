@@ -16,10 +16,10 @@ Install PointNet++ library
 $ pip install -r requirements.txt
 ```
 The codes are tested on:
-Ubuntu 18.04
-Python 3.7.6
-Pytorch 1.5.1
-CUDA 10.0
+Ubuntu 18.04<br>
+Python 3.7.6<br>
+Pytorch 1.5.1<br>
+CUDA 10.0<br>
 cuDNN 7.6.5
 
 
