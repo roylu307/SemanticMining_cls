@@ -15,20 +15,18 @@ Install PointNet++ library
 ```
 $ pip install -r requirements.txt
 ```
-The codes are tested on:<br>
-<br>
-Ubuntu 18.04<br>
-Python 3.7.6<br>
-Pytorch 1.5.1<br>
-CUDA 10.0<br>
-cuDNN 7.6.5
+The codes are tested on:
 
-
+- OS: Ubuntu 16.04/18.04
+- Python: 3.7.6
+- PyTorch: 1.5.1
+- CUDA: 10.0
+- CUDNN: 7.6.5
 
 ## Train and Evaluation
 ### Data Preparation
 Download alignment **ModelNet** [here](https://shapenet.cs.stanford.edu/media/modelnet40_normal_resampled.zip) and save in `data/modelnet40_normal_resampled/`.
-Train with model in ./models. eg. smnet_9layer
+Train with model in `./models`. eg. smnet_9layer
 
 ```
 python train_cls.py --model smnet_9layer --log_dir smnet_9layer --batch_size 72
