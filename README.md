@@ -15,7 +15,8 @@ Install PointNet++ library
 ```
 $ pip install -r requirements.txt
 ```
-The codes are tested on:
+The codes are tested on:<br>
+<br>
 Ubuntu 18.04<br>
 Python 3.7.6<br>
 Pytorch 1.5.1<br>
