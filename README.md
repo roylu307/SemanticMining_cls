@@ -37,7 +37,3 @@ python test_cls.py --log_dir smnet_9layer
 [yanx27/pointnet_pointnet2_pytorch](https://github.com/yanx27/Pointnet_Pointnet2_pytorch/tree/b4e79513391c11e98df30d3241a0a24ed3cb3a2a)<br>
 [erikwijmans/Pointnet2_PyTorch](https://github.com/erikwijmans/Pointnet2_PyTorch)
 
-## Environments
-Ubuntu 16.04 <br>
-Python 3.6.7 <br>
-Pytorch 1.1.0
