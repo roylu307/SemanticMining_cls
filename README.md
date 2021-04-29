@@ -30,13 +30,12 @@ Download alignment **ModelNet** [here](https://shapenet.cs.stanford.edu/media/mo
 Train with model in `./models`. eg. smnet_9layer
 
 ```
-python train_cls.py --model smnet_9layer --log_dir smnet_9layer --batch_size 72
+python train_cls.py --model smnet_9layer --log_dir smnet_9layer
 python test_cls.py --log_dir smnet_9layer
 ```
 
 Evaluation
 ```
-
 python test_cls.py --log_dir smnet_9layer
 ```
 
