@@ -177,7 +177,7 @@ def main(args):
         shutil.copy(os.path.basename(__file__), str(experiment_dir))
 
 
-    classifier = MODEL.DensePoint(num_classes = 40, input_channels = 0, use_xyz = True).cuda()
+    classifier = MODEL.SM_net(num_classes = 40, input_channels = 0, use_xyz = True).cuda()
     optimizer = torch.optim.Adam(classifier.parameters(), lr=args.learning_rate, weight_decay=args.weight_decay)
     criterion = torch.nn.CrossEntropyLoss().cuda()
 
