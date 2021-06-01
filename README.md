@@ -2,7 +2,7 @@
 
 This repo provides the Pytorch implementation of Semantic Feature Mining fpr 3D Object Classification and Segmentation accepted by ICRA2021.
 
-The code is mainly based on [Pointnet_Pointnet2_pytorch](https://github.com/yanx27/Pointnet_Pointnet2_pytorch/tree/b4e79513391c11e98df30d3241a0a24ed3cb3a2a) by Benny 
+The code is mainly based on [Pointnet_Pointnet2_pytorch](https://github.com/yanx27/Pointnet_Pointnet2_pytorch/tree/b4e79513391c11e98df30d3241a0a24ed3cb3a2a) by Benny and [DensePoint](https://github.com/Yochengliu/DensePoint) by Yochengliu
 
 ### Performance
 | Model | Accuracy |
