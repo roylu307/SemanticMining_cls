@@ -16,7 +16,7 @@ from scipy.stats import t as student_t
 import statistics as stats
 import math
 
-class DensePoint(nn.Module):
+class SM_net(nn.Module):
     r"""
         PointNet2 with multi-scale grouping
         Semantic segmentation network that uses feature propogation layers
