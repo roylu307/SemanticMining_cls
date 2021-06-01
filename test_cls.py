@@ -125,7 +125,7 @@ def main(args):
     MODEL = importlib.import_module(model_name)
     print(experiment_dir)
 
-    classifier = MODEL.DensePoint(num_classes = 40, input_channels = 0, use_xyz = True).cuda()
+    classifier = MODEL.SM_net(num_classes = 40, input_channels = 0, use_xyz = True).cuda()
 
     
 
