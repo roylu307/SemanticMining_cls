@@ -16,8 +16,8 @@ from scipy.stats import t as student_t
 import statistics as stats
 import math
 
-# DensePoint: 2 PPools + 3 PConvs + 1 global pool; narrowness k = 24; group number g = 2
-class DensePoint(nn.Module):
+
+class SM_net(nn.Module):
     r"""
         PointNet2 with multi-scale grouping
         Semantic segmentation network that uses feature propogation layers
