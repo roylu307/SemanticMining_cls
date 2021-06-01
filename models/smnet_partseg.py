@@ -18,8 +18,8 @@ from scipy.stats import t as student_t
 import statistics as stats
 import math
 
-# DensePoint: 2 PPools + 3 PConvs + 1 global pool; narrowness k = 24; group number g = 2
-class DensePoint(nn.Module):
+
+class SM_net(nn.Module):
 
     def __init__(self, num_classes, input_channels=0, use_xyz=True):
         super().__init__()
