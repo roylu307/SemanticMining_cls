@@ -20,8 +20,7 @@ import math
 def get_model(input_channels=6, use_xyz=True):
     return DensePoint(input_channels=input_channels, use_xyz=use_xyz)
 
-# DensePoint: 2 PPools + 3 PConvs + 1 global pool; narrowness k = 24; group number g = 2
-class DensePoint(nn.Module):
+class SM_net(nn.Module):
 
     def __init__(self, input_channels=0, use_xyz=True):
         super().__init__()
