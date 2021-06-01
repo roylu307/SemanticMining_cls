@@ -1,4 +1,4 @@
-# Semantic Feature Mining fpr 3D Object Classification and Segmentation
+# Semantic Feature Mining for 3D Object Classification and Segmentation
 
 This repo provides the Pytorch implementation of Semantic Feature Mining fpr 3D Object Classification and Segmentation accepted by ICRA2021.
 
