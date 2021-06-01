@@ -217,7 +217,7 @@ def main(args):
 
 
     input_channels = 3 if args.normal else 0
-    classifier = MODEL.DensePoint(num_classes = 50, input_channels = input_channels, use_xyz = True).cuda()
+    classifier = MODEL.SM_net(num_classes = 50, input_channels = input_channels, use_xyz = True).cuda()
     # classifier = torch.nn.DataParallel(classifier)
 
     checkpoint = torch.load(model_dir + args.model + '.pth')
