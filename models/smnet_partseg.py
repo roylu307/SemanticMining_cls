@@ -20,6 +20,9 @@ import math
 
 
 class SM_net(nn.Module):
+    '''
+    SM_net for seg.
+    '''
 
     def __init__(self, num_classes, input_channels=0, use_xyz=True):
         super().__init__()
