@@ -18,7 +18,7 @@ import statistics as stats
 import math
 
 def get_model(input_channels=6, use_xyz=True):
-    return DensePoint(input_channels=input_channels, use_xyz=use_xyz)
+    return SM_net(input_channels=input_channels, use_xyz=use_xyz)
 
 class SM_net(nn.Module):
 
